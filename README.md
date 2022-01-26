@@ -45,6 +45,21 @@ First we'll fix copy/paste
 
 Next we need to install python support (node is optional)
 
+---------------------------------------------------------------------------
+
+My editional steps:
+
+Install python:
+
+To install pip:
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py
+
+You need to add to your .bash_profile or .zshrc in your system root directory
+export PATH="/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/bin"
+
+-----------------------------------------------------------------------------------
+
 - Neovim python support
 
   ```
@@ -63,3 +78,8 @@ Next we need to install python support (node is optional)
 > The computing scientist's main challenge is not to get confused by the complexities of his own making. 
 
 \- Edsger W. Dijkstra
+
+
+
+
+
