@@ -58,7 +58,8 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 
 You need to add to your .bash_profile or .zshrc in your system root directory
-export PATH="/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/bin"
+not working, breaks terminal!!!
+#export PATH="/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/bin"
 
 -----------------------------------------------------------------------------------
 
